@@ -1,0 +1,38 @@
+body
+{
+   background-image: url("img/circuit.jpg");
+
+   background-size: cover ;
+   background-color: white;
+}
+h1
+{
+    font-size:70px;
+    color: black;
+    text-align: center;
+    border:6px groove;
+    border-radius: 10px;
+    border-color: white;
+    text-shadow: 2px 2px 3px orange;    
+    box-shadow: 6px 6px 6px orange;
+ 
+}
+h2{
+    font-style: italic;
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 2px 3px black;text-decoration: underline white;  
+}
+a
+{
+    color: black;
+    text-shadow: 2px 2px 3px orange;   
+}
+#conteneur
+{display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
